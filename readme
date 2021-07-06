@@ -1,0 +1,37 @@
+El API se encuentra en http://HolaTest/api.php y cuenta con los siguientes endpoints;
+
+// Retorna todos los registros
+GET /user
+
+// Retorna un registro en especifico
+GET /user/{id}
+
+// Crea un nuevo registro
+POST /user
+
+Se pasa en el Body de la peticion un objeto json, por ejemplo :
+{ 
+  "name"    : "Yamil", 
+  "username": "YamilBracho", 
+  "password": "123456",
+  "role"    : "ROLE_PAGE_1" 
+}
+
+// Actualiza un reistro existente
+PUT /user/{id}
+
+Se pasa en el Body de la peticion un objeto json, por ejemplo :
+{ 
+  "name"    : "Yamil", 
+  "username": "YamilBracho", 
+  "password": "123456",
+  "role"    : "ROLE_PAGE_1" 
+}
+
+// Elimina registro existente
+DELETE /user/{id}
+
+En el directorio User se encuentra el set de tests para porbar la funcionabilidad del API 
+y se anexa video de la ejecucion del API atraves de Postman
+
+
