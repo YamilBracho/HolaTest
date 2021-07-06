@@ -31,7 +31,6 @@ Se pasa en el Body de la peticion un objeto json, por ejemplo :
 // Elimina registro existente
 DELETE /user/{id}
 
-En el directorio User se encuentra el set de tests para porbar la funcionabilidad del API 
-y se anexa video de la ejecucion del API atraves de Postman
+
 
 
